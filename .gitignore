@@ -1,0 +1,6 @@
+
+# Ignore IntelliJ IDEA project folder, anywhere it might be
+**/.idea/**
+
+# Ignore the IntelliJ IDEA iml file, anywhere it might be.
+**/scala_project.iml
