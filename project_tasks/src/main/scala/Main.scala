@@ -1,12 +1,15 @@
 
-object Main extends App {
+object Main extends App
+{
 
-    def thread(body: => Unit): Thread = {
-        val t = new Thread {
-            override def run() = body
-        }
-        t.start
-        t
-    }
-  
+	def thread(body: => Unit): Thread =
+	{
+		val t = new Thread
+		{
+			override def run() = body
+		}
+		t.start
+		t
+	}
+
 }
